@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Given Schools</title>
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+	<body>
+		<div class="card-container"></div>
+		<div class="add">
+			<button id="modal-btn" class="btn">Add a School</button>
+		</div>
+		<div id="modal" class="modal-overlay">
+			<div class="modal">
+				<span class="close">&times;</span>
+				<form class="modal-content" method="GET" action="./app.js" target="_blank">
+					<div class="form-element">
+						<label for="school">School Name: </label><br/>
+						<input type="text" name="school" value="" placeholder="School Name University (SNU)" />
+					</div>
+					<div class="form-element">
+						<label for="phone">Phone Display: </label><br/>
+						<p class="form-help" for="phone">Please enter as a pipe separated list.</p>
+						<input type="text" name="phone" value="" placeholder="Phone Display 1 | Phone Display 2" />
+					</div>
+					<div class="form-element">
+						<label for="answer">Answer Phrase: </label><br/>
+						<p class="form-help" for="phone">Please enter as a pipe separated list.</p>
+						<input type="text" name="answer" value="" placeholder="Answer Phrase 1 | Answer Phrase 2" />
+					</div>
+					<div class="form-element">
+						<label for="jump">Jump Page Link: </label><br/>
+						<input type="url" name="jump" value="" placeholder="https://school_jump_page_url/kb_number" />
+					</div>
+					<div class="form-element">
+						<label for="chd">CHD Section Link: </label><br/>
+						<input type="url" name="chd" value="" placeholder="https://school_chd_section_url/kb_number" />
+					</div>
+					<div class="form-element">
+						<label for="verificationSoftware">Verification Software Name: </label><br/>
+						<input type="text" name="verificationSoftware" value="" placeholder="Banner" />
+					</div>
+					<div class="form-element">
+						<label for="resetSoftware">Reset Software Name: </label><br/>
+						<input type="text" name="resetSoftware" value="" placeholder="Active Directory" />
+					</div>
+					<div class="form-element" >
+						<input id="submit" type="submit" value="Submit"/>
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>
