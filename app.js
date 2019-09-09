@@ -1,12 +1,25 @@
+/*
+{
+    name: "School Name",
+    phone: ["Phone Display 1", "Phone Display 2"],
+    answer: ["Answer Phrase 1", "Answer Phrase 2"],
+    jump: "link 1",
+    chd: "link 2",
+    verificationSoftware: "Verification Software Name",
+    resetSoftware: "Reset Software Name",
+    lmsSoftware: "LMS Software Name"
+}
+*/
 var schools =
     [{
-        name: "",
-        phone: [""],
-        answer: [""],
-        jump: "",
-        chd: "",
-        verificationSoftware: "",
-        resetSoftware: " ",
+        name: "School Name",
+        phone: ["Phone Display 1", "Phone Display 2"],
+        answer: ["Answer Phrase 1", "Answer Phrase 2"],
+        jump: "link 1",
+        chd: "link 2",
+        verificationSoftware: "Verification Software Name",
+        resetSoftware: "Reset Software Name",
+        lmsSoftware: "LMS Software Name"
     }];
 
 
